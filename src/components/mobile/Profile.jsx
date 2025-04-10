@@ -7,8 +7,8 @@ const Profile = () => {
   return (
     <div className="w-full pt-5">
       <div className="relative w-screen px-[20px] flex justify-between">
-        <img src={logo} alt="logo" className="w-[181.65px]" />
-        <img src={bell} alt="" className="w-[68px]" />
+        <img src={logo} alt="logo" className="w-[181.65px] object-contain" />
+        <img src={bell} alt="" className="w-[68px] rotate-[40deg]" />
       </div>
 
       <div className="rounded-full h-[330px] w-[330px] mx-auto overflow-hidden shadow-[0px_4px_14.3px_0px_rgba(0,0,0,0.39)]">

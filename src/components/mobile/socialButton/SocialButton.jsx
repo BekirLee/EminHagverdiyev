@@ -5,14 +5,14 @@ const SocialButton = ({ href, src, alt, additionalClass = "" }) => {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className={`relative size-[55px] m-[10px]`}
+      className={`relative size-[70px] m-[10px]`}
     >
       <img
         src={src}
-        alt={alt}
-        className={`absolute w-[63px] z-20 left-1 top-2 ${additionalClass}`}
+        alt={alt} 
+        className={`absolute w-[70px] z-20 left-1 top-2 ${additionalClass}`}
       />
-      <img src={rectangle} alt="reactangle" className="absolute left-0 h-20" />
+      {/* <img src={rectangle} alt="reactangle" className="absolute left-0 h-20" /> */}
     </a>
   );
 };
